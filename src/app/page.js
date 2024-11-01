@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button} from "@/components/ui/button";
-import {Card, CardDescription, CardTitle} from "@/components/ui/card";
-import Mainbody from "@/app/agra/_component/mainbody";
+import {Card} from "@/components/ui/card";
 import {MdFacebook} from "react-icons/md";
 import {Input} from "@/components/ui/input";
-import Listtile from "@/app/agra/_component/listtile";
+import Listtile from "@/app/_component/listtile";
+import MainBody from "./_component/mainbody";
 const dummy = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 const d5 =[1,1,1,1,1];
 const header=[
@@ -28,17 +28,17 @@ const sidebar=[
     {'name':"others"},
 ];
 
-function Page(props) {
+function Page() {
     return (
         <div>
-            <Mainbody className='flex flex-row justify-between h-[70px] py-6 px-5 items-center'>
+            <MainBody className='flex flex-row justify-between h-[70px] py-6 px-5 items-center'>
                 <div>agra pro</div>
                 <div className="w-[400px]"><Input placeholder="Search an item ...."/></div>
                 <div className="flex flex-row gap-4"><Button className='bg-green-600'>Sign Up</Button><Button
                     variant="outline">Login</Button></div>
-            </Mainbody>
+            </MainBody>
             <div className='flex flex-row justify-between bg-green-600 h-[70px] w-full items-center'>
-                <Mainbody className="flex flex-row justify-between w-full items-center">
+                <MainBody className="flex flex-row justify-between w-full items-center">
                    <div className="flex flex-row gap-10 items-center text-white ">
 
 
@@ -52,10 +52,10 @@ function Page(props) {
 
                    </div>
                     <Button variant="outline">Sell</Button>
-                </Mainbody>
+                </MainBody>
 
             </div>
-            <Mainbody className="flex flex-row justify-between h-[70dvh] w-full gap-4 ">
+            <MainBody className="flex flex-row justify-between h-[70dvh] w-full gap-4 ">
                 <div className="w-[300px] bg-gray-400">
                     {sidebar.map((item, index) => (
                         <Listtile key={index} title={
@@ -64,11 +64,11 @@ function Page(props) {
                     ))}
                 </div>
                 <div className="w-full bg-blue-800"></div>
-            </Mainbody>
+            </MainBody>
             <div className="flex flex-col  w-full">
                 <div className="h-[20px] bg-green-600 w-full"></div>
                 <div className="h-full bg-gray-400 w-full py-2 px-5">
-                    <Mainbody className="py-5 gap-4 flex flex-col">
+                    <MainBody className="py-5 gap-4 flex flex-col">
 
                         <div className="justify-between flex flex-row w-full items-center">
 
@@ -83,7 +83,7 @@ function Page(props) {
                         <div className="grid grid-cols-5 gap-8">
                             {d5.map((row, i) => (
 
-                                <div>
+                                <div key={i}>
                                     <Card key={i} className="h-[200px] bg-green-800"> </Card>
                                     <h1>products</h1>
                                     <p className="font-bold">GHC 200</p>
@@ -91,22 +91,22 @@ function Page(props) {
                             ))}
 
                         </div>
-                    </Mainbody>
+                    </MainBody>
                 </div>
 
             </div>
-            <Mainbody className="flex flex-col w-full py-10 gap-4 ">
+            <MainBody className="flex flex-col w-full py-10 gap-4 ">
                 <h1 className="font-bold">Trending ads</h1>
                 <div className="grid grid-cols-5 gap-8">
                     {dummy.map((item, i) => (
                         <Card key={i} className="h-[130px]"></Card>
                     ))}
                 </div>
-            </Mainbody>
+            </MainBody>
             <div className="flex flex-col  w-full">
                 <div className="h-[20px] bg-green-600 w-full"></div>
                 <div className="h-full bg-gray-400 w-full py-2 px-5">
-                    <Mainbody className="py-5 gap-4 flex flex-col">
+                    <MainBody className="py-5 gap-4 flex flex-col">
                         <div className="justify-between flex flex-row w-full items-center">
 
                             <h1 className="flex flex-row gap-1">
@@ -122,7 +122,7 @@ function Page(props) {
 
                         <div className="grid grid-cols-5 gap-8">
                             {d5.map((row, i) => (
-                                <div>
+                                <div key={i}>
 
                                 <Card key={i} className="h-[200px] bg-green-800"> </Card>
                                     <h1>products</h1>
@@ -131,12 +131,12 @@ function Page(props) {
                             ))}
 
                         </div>
-                    </Mainbody>
+                    </MainBody>
                 </div>
 
             </div>
             <div className="bg-gray-400  w-full mt-10">
-                <Mainbody className="py-5 grid grid-cols-4 gap-8">
+                <MainBody className="py-5 grid grid-cols-4 gap-8">
                     <div className="flex flex-col">
                         <p>Follow Us On Social Media</p>
                         <div>
@@ -173,14 +173,14 @@ function Page(props) {
                         </ul>
                     </div>
 
-                </Mainbody>
+                </MainBody>
 
             </div>
             <div className="bg-green-600">
-                <Mainbody className="flex flex-row gap-4 text-white py-5">
+                <MainBody className="flex flex-row gap-4 text-white py-5">
                     <p>CopyRight 2024</p>
                     <p>Agrapro.org - All Rights Reserved</p>
-                </Mainbody>
+                </MainBody>
             </div>
         </div>
     );
