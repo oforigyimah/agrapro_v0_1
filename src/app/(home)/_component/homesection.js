@@ -1,5 +1,5 @@
 import React from 'react';
-import Mainbody from "@/app/agra/_component/mainbody";
+import Mainbody from "@/app/(home)/_component/mainbody";
 import {Card} from "@/components/ui/card";
 function HomeSection({title,button,data}) {
     return (
@@ -15,12 +15,12 @@ function HomeSection({title,button,data}) {
                     </div>
 
                     <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-                        {data.map((row, i) => (
+                        {data.map((element, i) => (
 
-                            <div>
+                            <div key={i}>
                                 <Card key={i} className="h-[200px] bg-green-800"> </Card>
-                                <h1>products</h1>
-                                <p className="font-bold">GHC 200</p>
+                                <h1>{element.name}</h1>
+                                <p className="font-bold">GHC {element.price}</p>
                             </div>
                         ))}
 
