@@ -13,23 +13,28 @@ const dummy = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 const d5 = [
     {
     'name': "Cassava",
-    'price': "200"
+    'price': "200",
+        'img':"cassava.jpg"
 },
     {
         'name': "Mango",
-        'price': "100"
+        'price': "100",
+        'img':'mango.jpg'
     },
     {
         'name': "Orange",
-        'price': "150"
+        'price': "150",
+        'img':"orange.jpg"
     },
     {
         'name': "Yam",
-        'price': "124"
+        'price': "124",
+        'img':'yam.jpg'
     },
     {
         'name': "Cocoa",
-        'price': "300"
+        'price': "300",
+        'img':'cocoa.jpg'
     },
 ];
 
