@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5927041-1518-47db-8491-81d2395cd18e" name="Changes" comment="com" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oforigyimah&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://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@github.com/oforigyimah/agrapro_v0_1.git&quot;,
+    &quot;accountId&quot;: &quot;3c72f15a-b3ab-4ae6-b8c7-63de3bee3df4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oCFAOFhGLNaP6figatEf9cDvsf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rabbit&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rabxx/agrapro_v0_1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/rabxx/agrapro_v0_1/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/app/types" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5927041-1518-47db-8491-81d2395cd18e" name="Changes" comment="" />
+      <created>1730365507123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730365507123</updated>
+      <workItem from="1730365508233" duration="3121000" />
+      <workItem from="1730369743244" duration="646000" />
+      <workItem from="1730391069108" duration="400000" />
+      <workItem from="1730392910817" duration="619000" />
+      <workItem from="1730458177401" duration="1682000" />
+      <workItem from="1731316591247" duration="3337000" />
+      <workItem from="1731319937862" duration="5711000" />
+      <workItem from="1731663651870" duration="262000" />
+      <workItem from="1731663926909" duration="779000" />
+      <workItem from="1731821155941" duration="621000" />
+      <workItem from="1731940701766" duration="159000" />
+      <workItem from="1731940866979" duration="3030000" />
+      <workItem from="1731944437461" duration="587000" />
+      <workItem from="1731948915452" duration="37000" />
+      <workItem from="1732013344802" duration="184000" />
+      <workItem from="1732014996102" duration="33000" />
+      <workItem from="1732027944356" duration="1530000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1730391444398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730391444398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="i">
+      <option name="closed" value="true" />
+      <created>1730458263806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730458263806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="install components">
+      <option name="closed" value="true" />
+      <created>1730459858680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730459858680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init&#10;&#10;(cherry picked from commit ecde3806dd0cbd8e2907b44c7a3b21628089ebad)">
+      <option name="closed" value="true" />
+      <created>1731316862112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731316862112</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MK">
+      <option name="closed" value="true" />
+      <created>1731317235399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731317235399</updated>
+    </task>
+    <task id="LOCAL-00006" summary="MK">
+      <option name="closed" value="true" />
+      <created>1731317346051</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731317346051</updated>
+    </task>
+    <task id="LOCAL-00007" summary="com">
+      <option name="closed" value="true" />
+      <created>1731940782059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731940782059</updated>
+    </task>
+    <task id="LOCAL-00008" summary="com">
+      <option name="closed" value="true" />
+      <created>1732029936260</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732029936260</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/page.js" />
+        <option value="$PROJECT_DIR$/src/components/ui/card.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/input.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/toast.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/sheet.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/tabs.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/table.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/popover.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/dialog.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/checkbox.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/textarea.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/avatar.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/label.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/toaster.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/alert-dialog.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/command.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ui/dropdown-menu.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="i" />
+    <MESSAGE value="install components" />
+    <MESSAGE value="init&#10;&#10;(cherry picked from commit ecde3806dd0cbd8e2907b44c7a3b21628089ebad)" />
+    <MESSAGE value="MK" />
+    <MESSAGE value="com" />
+    <option name="LAST_COMMIT_MESSAGE" value="com" />
+  </component>
+</project>
