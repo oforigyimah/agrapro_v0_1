@@ -1,5 +1,5 @@
 import React from 'react';
-import Mainbody from "@/app/agra/_component/mainbody";
+import Mainbody from "@/app/(home)/_component/mainbody";
 import {MdFacebook} from "react-icons/md";
 const d5 =[1,1,1,1,1];
 function Footer(props) {

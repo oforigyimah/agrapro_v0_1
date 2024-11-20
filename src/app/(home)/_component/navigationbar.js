@@ -1,6 +1,6 @@
 import React from 'react';
-import Mainbody from "@/app/agra/_component/mainbody";
-import Listtile from "@/app/agra/_component/listtile";
+import Mainbody from "@/app/(home)/_component/mainbody";
+import Listtile from "@/app/(home)/_component/listtile";
 import {Button} from "@/components/ui/button";
 const header=[
     {'name':"products"},

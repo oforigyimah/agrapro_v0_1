@@ -1,5 +1,5 @@
 import React from 'react';
-import Listtile from "@/app/agra/_component/listtile";
+import Listtile from "@/app/(home)/_component/listtile";
 const sidebar=[
     {'name':"crops"},
     {'name':"animal husbandry"},

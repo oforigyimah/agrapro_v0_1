@@ -10,7 +10,33 @@ import Footer from "./_component/footer";
 
 
 const dummy = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
-const d5 = [1, 1, 1, 1, 1];
+const d5 = [
+    {
+    'name': "Cassava",
+    'price': "200",
+        'img':"cassava.jpg"
+},
+    {
+        'name': "Mango",
+        'price': "100",
+        'img':'mango.jpg'
+    },
+    {
+        'name': "Orange",
+        'price': "150",
+        'img':"orange.jpg"
+    },
+    {
+        'name': "Yam",
+        'price': "124",
+        'img':'yam.jpg'
+    },
+    {
+        'name': "Cocoa",
+        'price': "300",
+        'img':'cocoa.jpg'
+    },
+];
 
 
 function Page() {
@@ -22,7 +48,7 @@ function Page() {
             </div>
             <Mainbody className="flex flex-row justify-between h-[70dvh] w-full gap-4 ">
                 <Sidebarx/>
-                <div className="w-full bg-blue-800"></div>
+                <div className="w-full bg-[url('/images/BLOG-IMAGE.jpg')] bg-cover"></div>
             </Mainbody>
             <HomeSection title={
                 <h1><span className="font-semibold">
