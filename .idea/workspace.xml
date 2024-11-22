@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5927041-1518-47db-8491-81d2395cd18e" name="Changes" comment=".gitigno">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/queries/firestore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/queries/storage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="f5927041-1518-47db-8491-81d2395cd18e" name="Changes" comment="com" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +58,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging sam&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rabbit&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/rabxx/agrapro_v0_1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -160,7 +153,6 @@
       <workItem from="1732013344802" duration="184000" />
       <workItem from="1732014996102" duration="33000" />
       <workItem from="1732027944356" duration="1530000" />
-      <workItem from="1732117500014" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
