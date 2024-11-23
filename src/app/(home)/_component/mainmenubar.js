@@ -4,7 +4,7 @@ import {Input} from "@/components/ui/input";
 import {Button} from "@/components/ui/button";
 import Mainbody from "@/app/(home)/_component/mainbody";
 
-function Mainmenubar(props) {
+function Mainmenubar() {
 
     return (
         <Mainbody className='flex flex-row justify-between h-[70px] py-6 px-5 items-center'>
