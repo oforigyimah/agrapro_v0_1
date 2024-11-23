@@ -13,7 +13,7 @@ const sidebar=[
     {'name':"jobs"},
     {'name':"others"},
 ];
-function Sidebarx(props) {
+function Sidebarx() {
     return (
         <div className="w-[300px] hidden md:block bg-gray-400">
             {sidebar.map((item, index) => (

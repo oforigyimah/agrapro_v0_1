@@ -2,7 +2,7 @@ import React from 'react';
 import Mainbody from "@/app/(home)/_component/mainbody";
 import {MdFacebook} from "react-icons/md";
 const d5 =[1,1,1,1,1];
-function Footer(props) {
+function Footer() {
     return (
         <div>
             <div className="bg-gray-400  w-full">

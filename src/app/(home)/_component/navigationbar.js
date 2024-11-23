@@ -9,7 +9,7 @@ const header=[
     {'name':"traders"},
     {'name':"statistics"},
 ];
-function Navigationbar(props) {
+function Navigationbar() {
     return (
         <Mainbody className="flex flex-row justify-between w-full items-center">
             <div className="flex flex-row gap-10 items-center text-white ">
