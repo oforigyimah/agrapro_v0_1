@@ -7,6 +7,8 @@ import Mainbody from "./_component/mainbody";
 import Sidebarx from "./_component/sidebar";
 import HomeSection from "./_component/homesection";
 import Footer from "./_component/footer";
+import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "../../components/ui/carousel";
+import Image from "next/image";
 
 
 const dummy = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
@@ -46,9 +48,24 @@ function Page() {
             <div className='flex flex-row justify-between bg-green-600 h-[70px] w-full items-center'>
                 <Navigationbar/>
             </div>
-            <Mainbody className="flex flex-row justify-between h-[70dvh] w-full gap-4 ">
+            <Mainbody className="flex flex-row justify-between h-[70dvh] w-full gap-12 ">
                 <Sidebarx/>
-                <div className="w-full bg-[url('/images/BLOG-IMAGE.jpg')] bg-cover"></div>
+                <div className="w-full">
+                    <Carousel
+                        opts={{
+                            align: "start",
+                            loop: true,
+                        }}
+                    >
+                        <CarouselContent>
+                            <CarouselItem className={`h-[70dvh] w-full`}> <Image src={`/images/BANNER-1.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
+                            <CarouselItem className={`h-[70dvh] w-full`}> <Image src={`/images/BANNER-2.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
+                            <CarouselItem className={`h-[70dvh] w-full`}> <Image src={`/images/BANNER-3.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
+                        </CarouselContent>
+                        <CarouselPrevious />
+                        <CarouselNext />
+                    </Carousel>
+                </div>
             </Mainbody>
             <HomeSection title={
                 <h1><span className="font-semibold">
