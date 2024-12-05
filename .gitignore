@@ -17,7 +17,6 @@
 /.next/
 /out/
 pnpm-lock.yaml
-npm-lock.yaml
 # production
 /build
 .idea
