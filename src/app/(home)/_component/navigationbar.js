@@ -2,9 +2,10 @@ import React from 'react';
 import Mainbody from "@/app/(home)/_component/mainbody";
 import Listtile from "@/app/(home)/_component/listtile";
 import {Button} from "@/components/ui/button";
+import Link from "next/link";
 const header=[
     {'name':"products"},
-    {'name':"investor"},
+    {'name':"investors"},
     {'name':"farmers"},
     {'name':"traders"},
     {'name':"statistics"},
@@ -19,7 +20,9 @@ function Navigationbar() {
 
                 <ul className="md:flex-row md:gap-4 hidden md:flex">
                     {header.map((item, index) => (
+                       <Link key={index} href={`/${item.name}`}>
                         <li key={index}>{item.name.toUpperCase()}</li>
+                       </Link>
                     ))}
                 </ul>
 

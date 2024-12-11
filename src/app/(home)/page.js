@@ -48,19 +48,20 @@ function Page() {
             <div className='flex flex-row justify-between bg-green-600 h-[70px] w-full items-center'>
                 <Navigationbar/>
             </div>
-            <Mainbody className="flex flex-row justify-between h-[70dvh] w-full gap-12 ">
+            <Mainbody className="flex flex-row justify-between h-auto w-full gap-12 ">
                 <Sidebarx/>
                 <div className="w-full">
                     <Carousel
+
                         opts={{
                             align: "start",
                             loop: true,
                         }}
                     >
-                        <CarouselContent>
-                            <CarouselItem className={`h-[70dvh] w-full`}> <Image src={`/images/BANNER-1.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
-                            <CarouselItem className={`h-[70dvh] w-full`}> <Image src={`/images/BANNER-2.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
-                            <CarouselItem className={`h-[70dvh] w-full`}> <Image src={`/images/BANNER-3.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
+                        <CarouselContent className={`my-auto`}>
+                            <CarouselItem > <Image src={`/images/BANNER-1.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
+                            <CarouselItem > <Image src={`/images/BANNER-2.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
+                            <CarouselItem > <Image src={`/images/BANNER-3.jpg`} alt={`agra pro`} width="7000" height="7000"/></CarouselItem>
                         </CarouselContent>
                         <CarouselPrevious />
                         <CarouselNext />
@@ -83,6 +84,7 @@ function Page() {
                     {dummy.map((item, i) => (
                         <Card key={i} className="h-[130px]"></Card>
                     ))}
+                    
                 </div>
             </Mainbody>
             <HomeSection title={

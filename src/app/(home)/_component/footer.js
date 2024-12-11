@@ -1,6 +1,6 @@
 import React from 'react';
 import Mainbody from "@/app/(home)/_component/mainbody";
-import {MdFacebook} from "react-icons/md";
+import {MdFacebook, MdWeb, MdWhatsapp} from "react-icons/md";
 const d5 =[1,1,1,1,1];
 function Footer() {
     return (
@@ -9,8 +9,10 @@ function Footer() {
                 <Mainbody className="py-5 grid grid-cols-4 gap-8">
                     <div className="flex flex-col">
                         <p>Follow Us On Social Media</p>
-                        <div>
+                        <div className="flex flex-row gap-3">
                             <MdFacebook/>
+                            <MdWhatsapp/>
+                            <MdWeb/>
 
 
                         </div>
