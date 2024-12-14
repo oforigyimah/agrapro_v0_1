@@ -6,7 +6,7 @@ function HomeSection({title,button,data}) {
     return (
         <div className="flex flex-col  w-full">
             <div className="h-[20px] bg-green-600 w-full"></div>
-            <div className="h-full bg-gray-400 w-full py-2 px-5">
+            <div className="h-full bg-gray-300 w-full py-2 px-5">
                 <Mainbody className="py-5 gap-4 flex flex-col">
 
                     <div className="justify-between flex flex-row w-full items-center">

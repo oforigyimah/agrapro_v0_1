@@ -15,7 +15,7 @@ const sidebar=[
 ];
 function Sidebarx() {
     return (
-        <div className="w-[300px] h-auto hidden md:block bg-gray-400">
+        <div className="w-[300px] h-auto hidden md:block bg-gray-300">
             {sidebar.map((item, index) => (
                 <Listtile key={index} title={
                     item.name.toUpperCase()

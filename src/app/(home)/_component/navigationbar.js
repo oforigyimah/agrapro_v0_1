@@ -12,7 +12,9 @@ const header=[
 ];
 function Navigationbar() {
     return (
+            <div className='flex flex-row justify-between bg-green-600 h-[70px] w-full items-center'>
         <Mainbody className="flex flex-row justify-between w-full items-center">
+
             <div className="flex flex-row gap-10 items-center text-white ">
 
 
@@ -29,6 +31,7 @@ function Navigationbar() {
             </div>
             <Button variant="outline">Sell</Button>
         </Mainbody>
+            </div>
     );
 }
 

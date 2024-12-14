@@ -5,7 +5,7 @@ const d5 =[1,1,1,1,1];
 function Footer() {
     return (
         <div>
-            <div className="bg-gray-400  w-full">
+            <div className="bg-gray-300  w-full">
                 <Mainbody className="py-5 grid grid-cols-4 gap-8">
                     <div className="flex flex-col">
                         <p>Follow Us On Social Media</p>
